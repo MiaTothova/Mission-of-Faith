@@ -1,3 +1,19 @@
+/* * wildcard selector to override default styles added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* General styles */
+Body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+
 /*  Header */
 header {
     background-color: lightpink;
@@ -6,6 +22,7 @@ header {
 /*  Main */
 main {
     background-color: lightgreen;
+    flex: auto;
 }
 
 /*  Footer */
