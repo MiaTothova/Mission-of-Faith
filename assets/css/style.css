@@ -20,30 +20,26 @@ Body {
 /*  Header */
 header {
     background-color: #AA5042;
+    background: url(../images/faith.webp) no-repeat center center;
+    background-size: cover;
+	background-position: center;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
-#home {
-    background: url(../images/faith.webp);
-    height: 200px;
-    padding: 0 1rem;
-    width: 100%;
-	background-size: cover;
-	background-position: center;
-}
 
 h1 {
     font-family: "PT Serif", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E0E2DB;
+    color: #ffffff;
 }
 
 header a {
     text-decoration: none;
-    color: #E0E2DB;
+    color: #ffffff;
 }
 
 #menu {
