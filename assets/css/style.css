@@ -14,14 +14,20 @@ Body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: "PT Serif", serif;
+    font-family: "Albert Sans", serif;
 }
 
 
 /*  Header */
 header {
     background-color: lightpink;
+
 }
+
+h1 {
+    font-family: "PT Serif", serif;
+}
+
 
 /*  Main */
 main {
