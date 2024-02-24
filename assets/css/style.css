@@ -17,18 +17,12 @@ Body {
     font-family: "Albert Sans", serif;
 }
 
-
 /*  Header */
 header {
     background-color: #AA5042;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
-}
-
-header a {
-    text-decoration: none;
-    color: #E0E2DB;
 }
 
 h1 {
@@ -38,7 +32,24 @@ h1 {
     color: #E0E2DB;
 }
 
+header a {
+    text-decoration: none;
+    color: #E0E2DB;
+}
 
+#menu {
+    /* strangely was not responsive when using a ID for the unordered lis ... I had to target it this way*/
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+} 
+ #menu li {
+    margin-bottom: 7px;
+ }
+
+ .active {
+    border-bottom: 1px solid #343F3E;
+}
 /*  Main */
 main {
     background-color: lightgreen;
