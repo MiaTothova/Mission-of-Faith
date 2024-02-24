@@ -25,6 +25,15 @@ header {
     width: 100%;
 }
 
+#home {
+    background: url(../images/faith.webp);
+    height: 200px;
+    padding: 0 1rem;
+    width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
 h1 {
     font-family: "PT Serif", serif;
     text-transform: uppercase;
