@@ -55,8 +55,23 @@ main {
 }
 
 /*  Footer */
+
 footer {
-    
+    background-color: #AA5042;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 150%;
+    padding: 7%;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px and up) */
