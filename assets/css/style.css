@@ -23,7 +23,7 @@ header {
     /* background: url(../images/faith.webp) no-repeat center center; */
     background: url(../images/jesus.webp) no-repeat center center;
     background-size: cover;
-	background-position: center;
+    background-position: center;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -63,9 +63,9 @@ footer {
     background: url(../images/jesus.webp);
     min-height: 70px;
     width: 100%;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #social-media {
@@ -85,12 +85,55 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    header h1 {
+        text-align: center;
+    }
 
-
+    /* Footer */
+    footer {
+        height: 100px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-   
+    header h1 {
+        font-size: 400%;
+    }
+
+    /* Footer */
+
+    #social-media i {
+        font-size: 300%;
+    }
+}
+
+/* Large devices (laptops and desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
+    header h1 {
+        font-size: 400%;
+    }
+
+    /* Footer */
+    #social-media i {
+        font-size: 300%;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 2560px and up) */
+@media screen and (min-width: 2560px) {
+    header h1 {
+        font-size: 600%;
+    }
+
+    /* Footer */
+    footer {
+        height: 150px;
+    }
+
+    #social-media i {
+        font-size: 500%;
+    }
 
 }
