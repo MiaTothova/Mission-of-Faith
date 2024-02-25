@@ -19,7 +19,7 @@ Body {
 
 /*  Header */
 header {
-    background-color: #AA5042;
+    background-color: #AB9BA5;
     /* background: url(../images/faith.webp) no-repeat center center; */
     background: url(../images/jesus.webp) no-repeat center center;
     background-size: cover;
@@ -35,7 +35,8 @@ h1 {
     font-family: "PT Serif", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #000000;
+    font-style: italic;
 }
 
 header h1 {
@@ -58,7 +59,7 @@ main {
 /*  Footer */
 
 footer {
-    background-color: #AA5042;
+    background-color: #AB9BA5;
     background: url(../images/jesus.webp);
     min-height: 70px;
     width: 100%;
