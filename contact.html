@@ -53,8 +53,32 @@
   </header>
 
 
-  <!-- Main content -->
-  <main>Main content</main>
+  <main>
+    <!-- Form -->
+    <section id="contact-us">
+      <form id="contact" method="POST" action="https://formdump.codeinstitute.net">
+        <h2>Get in Touch</h2>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Name">
+        <br>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Last name">
+        <br>
+        <label for="number">Contact number</label>
+        <input type="number" name="phone_number" id="phone_number" class="number-input" placeholder="Contact"  required>
+        <br>
+        <label for="email_address">Email Address</label>
+        <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Your email" required>
+        <br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" cols="12" placeholder="Enter a brief message" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+
+      </form>
+
+    </section>
+  </main>
 
 
   <!-- Footer -->
@@ -71,13 +95,11 @@
           aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></i></li>
       <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
           aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></li>
-    </ul> 
+    </ul>
   </footer>
-
 
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/66439a723b.js" crossorigin="anonymous"></script>
-
 
   <!-- Bootsrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
