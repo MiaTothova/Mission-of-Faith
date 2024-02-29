@@ -25,6 +25,7 @@
 <body>
   <!-- Header -->
   <header>
+
     <a href="index.html">
       <h1>Mission of Faith</h1>
     </a>
@@ -57,9 +58,9 @@
     <!-- Form -->
     <section>
       
-      <div id="contact-form" class="container">
+      <div id="contact" class="container">
         <h2>Get in Touch</h2>
-        <form id="contact" method="POST" action="https://formdump.codeinstitute.net">
+        <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
           <label for="first_name">First Name</label>
           <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Name">
           <br>
@@ -78,7 +79,9 @@
           <textarea name="message" id="message" rows="5" cols="25" placeholder="Enter a brief message"
             required></textarea>
           <br>
-          <button type="submit">Send</button>
+          <div>
+          <button type="submit" class="submit-button">Send</button>
+          </div>
         </form>
       </div>
     </section>

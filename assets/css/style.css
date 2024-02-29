@@ -48,7 +48,6 @@ header a {
 }
 
 
-
 /*  Main */
 main {
     background-color: #E0E2DB;
@@ -56,14 +55,24 @@ main {
 }
 
 /* Contact-Us Page  */
-#contact-form h2 {
+#contact h2 {
     text-align: center;
+    padding-top: 20px;
 } 
 
-#contact {
+#contact-form {
     padding: 30px;
     background-color: rgba(173, 129, 129, 0.2);
     margin-bottom: 2em;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #AB9BA5;
+    color: #000000;
 }
 
 
@@ -93,13 +102,11 @@ footer {
     color: #ffffff;
 }
 
-
 /* Media query: tablets and larger (375px and up) */
 @media screen and (min-width: 375px) {
     #contact-form {
         display: flex; 
         flex-direction: column;
-        flex-grow: 1; 
         padding: 20px 50px 20px;
     } 
 
