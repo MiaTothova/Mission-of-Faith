@@ -55,6 +55,18 @@ main {
     flex: auto;
 }
 
+/* Contact-Us Page  */
+#contact-form h2 {
+    text-align: center;
+} 
+
+#contact {
+    padding: 30px;
+    background-color: rgba(173, 129, 129, 0.2);
+    margin-bottom: 2em;
+}
+
+
 /*  Footer */
 
 footer {
@@ -80,6 +92,19 @@ footer {
     padding: 7%;
     color: #ffffff;
 }
+
+
+/* Media query: tablets and larger (375px and up) */
+@media screen and (min-width: 375px) {
+    #contact-form {
+        display: flex; 
+        flex-direction: column;
+        flex-grow: 1; 
+        padding: 20px 50px 20px;
+    } 
+
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
