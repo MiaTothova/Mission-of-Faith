@@ -21,31 +21,40 @@ Body {
 header {
     background-color: #AB9BA5;
     /* background: url(../images/faith.webp) no-repeat center center; */
-    background: url(../images/jesus.webp) no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    padding: 0 1rem;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    /* background: url(../images/jesus.webp) no-repeat center center; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* padding: 0 1rem; */
+    /* width: 100%; */
+    /* box-shadow: 0 2px 2px #3a3a3a; */
 }
 
 
-h1 {
+/* h1 {
     font-family: "PT Serif", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
     font-style: italic;
+} */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
 }
 
-header h1 {
-    font-size: 300%;
-}
 
-header a {
+
+/* 
+#logo {
+    font-size: 150%;
+} */
+
+/* header a {
     text-decoration: none;
     color: #ffffff;
-}
+} */
 
 
 /*  Main */
