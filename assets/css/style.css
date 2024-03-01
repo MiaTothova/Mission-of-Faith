@@ -17,26 +17,35 @@ Body {
     font-family: "Albert Sans", serif;
 }
 
-/*  Header */
-header {
-    background-color: #AB9BA5;
-    /* background: url(../images/faith.webp) no-repeat center center; */
-    /* background: url(../images/jesus.webp) no-repeat center center; */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* padding: 0 1rem; */
-    /* width: 100%; */
-    /* box-shadow: 0 2px 2px #3a3a3a; */
-}
-
-
-/* h1 {
+h1, h2, h3  {
     font-family: "PT Serif", serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
     font-style: italic;
-} */
+}
+
+/*  Header */
+header {
+    background-color: #AB9BA5;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px #282828;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 #menu {
     font-size: 110%;
@@ -44,17 +53,39 @@ header {
     list-style-type: none;
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
 
+.active {
+    border-bottom: 1px solid #000000;
+}
 
-/* 
-#logo {
-    font-size: 150%;
-} */
+/* Navbar styles with dropdown toggle */
 
-/* header a {
-    text-decoration: none;
-    color: #ffffff;
-} */
+ nav {
+    position: absolute;
+    background-color: #AB9BA5;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+} 
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+} 
+
+#nav-toggle {
+    display: none;
+} 
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 
 /*  Main */
@@ -87,7 +118,7 @@ main {
 
 /*  Footer */
 
-footer {
+ footer {
     background-color: #AB9BA5;
     background: url(../images/jesus.webp);
     min-height: 70px;
@@ -109,71 +140,71 @@ footer {
     font-size: 200%;
     padding: 7%;
     color: #ffffff;
-}
+} 
 
 /* Media query: tablets and larger (375px and up) */
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
     #contact-form {
         display: flex; 
         flex-direction: column;
         padding: 20px 50px 20px;
     } 
 
-}
+} */
 
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) { */
 
-    header h1 {
+    /* header h1 {
         text-align: center;
-    }
+    } */
 
     /* Footer */
-    footer {
+    /* footer {
         height: 100px;
     }
-}
+} */
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    header h1 {
+/* @media screen and (min-width: 992px) { */
+    /* header h1 {
         font-size: 400%;
-    }
+    } */
 
     /* Footer */
 
-    #social-media i {
+    /* #social-media i {
         font-size: 300%;
     }
-}
+} */
 
 /* Large devices (laptops and desktops, 1440px and up) */
-@media screen and (min-width: 1440px) {
-    header h1 {
+/* @media screen and (min-width: 1440px) { */
+    /* header h1 {
         font-size: 400%;
-    }
+    } */
 
     /* Footer */
-    #social-media i {
+    /* #social-media i {
         font-size: 300%;
     }
 
-}
+} */
 
 /* Large devices (laptops and desktops, 2560px and up) */
-@media screen and (min-width: 2560px) {
-    header h1 {
+/* @media screen and (min-width: 2560px) { */
+    /* header h1 {
         font-size: 600%;
-    }
+    } */
 
     /* Footer */
-    footer {
+    /* footer {
         height: 150px;
-    }
+    } */
 
-    #social-media i {
+    /* #social-media i {
         font-size: 500%;
     }
 
-}
+} */
