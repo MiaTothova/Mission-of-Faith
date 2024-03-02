@@ -89,10 +89,16 @@ header a {
 }
 
 
-/*  Main */
+/*  Main content */
 main {
     background-color: #E0E2DB;
-    flex: auto;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 50px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column
 }
 
 /* Contact-Us Page  */
