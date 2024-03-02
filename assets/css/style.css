@@ -101,6 +101,14 @@ main {
     flex-direction: column
 }
 
+/*  Hero Section  */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Contact-Us Page  */
 #contact h2 {
     text-align: center;
