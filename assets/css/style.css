@@ -40,12 +40,13 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+
 }
 
 #logo {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 #menu {
@@ -61,6 +62,7 @@ header a {
 .active {
     border-bottom: 1px solid #000000;
 }
+
 
 /* Navbar styles with dropdown toggle */
 
@@ -135,27 +137,27 @@ main {
 
  footer {
     background-color: #AB9BA5;
-    background: url(../images/jesus.webp);
-    min-height: 70px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+}
+
+footer p {
+    text-align: center;
+    padding: 0 5px;
 }
 
 #social-media {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social-media i {
-    font-size: 200%;
-    padding: 7%;
-    color: #ffffff;
+    font-size: 140%;
+    color: #000000;
 } 
+
+
 
 /* Media query: tablets and larger (375px and up) */
 /* @media screen and (min-width: 375px) {
@@ -222,6 +224,10 @@ main {
 
     #menu {
         font-size: 120%;
+    }
+
+     #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 
 
