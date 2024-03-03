@@ -116,7 +116,7 @@ main {
     margin: 20px 15px 20px 15px;
 }
 
-#pastors {
+#about-us {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,11 +131,15 @@ main {
     max-height: 400px;
     max-width: 400px;
     margin-top: 10px;
-    margin-bottom: 10px;
-
+    margin-bottom: 10px
 }
 
-
+#pastors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /* Contact-Us Page  */
 #contact h2 {
