@@ -123,6 +123,17 @@ main {
     flex-direction: column;
 }
 
+#about-pastors {
+    text-align: center;
+}
+
+#pastors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #pastor-img {
     background: url('../images/pastors.webp') no-repeat top center / cover;
     height: 70vw;
@@ -134,12 +145,6 @@ main {
     margin-bottom: 10px
 }
 
-#pastors {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 /* Contact-Us Page  */
 #contact h2 {
@@ -236,16 +241,19 @@ footer p {
     .nav-toggle-label {
         display: none;
     }
+
+    #pastors {
+        flex-direction: row;
+    }
+
+    #pastor-bio {
+        flex-shrink: 2;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
 }
 
-    /* Footer */
-    /* footer {
-        height: 100px;
-    }
-} */
-
-
-
+    
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #logo {
@@ -260,12 +268,11 @@ footer p {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    #about {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 
-    /* Footer */
-
-    /* #social-media i {
-        font-size: 300%;
-    } */
 } 
 
 /* Large devices (laptops and desktops, 1440px and up) */
@@ -277,14 +284,8 @@ footer p {
     #menu {
         font-size: 140%;
     }
+
 }
-
-    /* Footer */
-    /* #social-media i {
-        font-size: 300%;
-    }
-
-} */
 
 /* Large devices (laptops and desktops, 2560px and up) */
 /* @media screen and (min-width: 2560px) { */
