@@ -111,6 +111,32 @@ main {
     position: relative;
 }
 
+/* About Section */
+#about {
+    margin: 20px 15px 20px 15px;
+}
+
+#pastors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pastor-img {
+    background: url('../images/pastors.webp') no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10%;
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
 /* Contact-Us Page  */
 #contact h2 {
     text-align: center;
