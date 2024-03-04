@@ -362,12 +362,14 @@ footer p {
     #sun-text {
         flex-shrink: 2;
         margin-left: 3%;
+        margin-top: 3%;
     }
 
     #fri-text,
     #school-text {
         flex-shrink: 2;
         margin-left: 3%;
+        margin-top: 3%;
     }
 
     #wed-img,
