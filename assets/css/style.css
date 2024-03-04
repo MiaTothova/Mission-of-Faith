@@ -154,6 +154,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 #wednesday,
@@ -173,9 +174,9 @@ main {
     height: 70vw;
     width: 70vw;
     border-radius: 30%;
-    max-height: 400px;
-    max-width: 400px;
-    margin-left: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 10%;
 }
 
 #fri-img {
@@ -183,9 +184,9 @@ main {
     height: 70vw;
     width: 70vw;
     border-radius: 30%;
-    max-height: 400px;
-    max-width: 400px;
-    margin-left: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 10%;
 }
 
 #sun-img {
@@ -193,9 +194,9 @@ main {
     height: 70vw;
     width: 70vw;
     border-radius: 30%;
-    max-height: 400px;
-    max-width: 400px;
-    margin-left: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 10%;
 }
 
 #school-img {
@@ -203,9 +204,9 @@ main {
     height: 70vw;
     width: 70vw;
     border-radius: 30%;
-    max-height: 400px;
-    max-width: 400px;
-    margin-left: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 10%;
 }
 
 
@@ -279,6 +280,7 @@ footer p {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Logo and navigation */
     #logo {
         font-size: 160%;
         line-height: 50px;
@@ -305,6 +307,7 @@ footer p {
         display: none;
     }
 
+    /* About section */
     #pastors {
         flex-direction: row-reverse;
     }
@@ -313,6 +316,14 @@ footer p {
         flex-shrink: 2;
         margin-right: 30px;
         margin-top: 30px;
+    }
+
+    /* Program section */
+    #wed-img,
+    #fri-img,
+    #sun-img,
+    #school-img {
+        margin-left: 30%;
     }
 }
 
@@ -331,11 +342,40 @@ footer p {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #about {
+    #about, #program {
         margin-left: 4%;
         margin-right: 4%;
     }
 
+    /* Program section */
+    #wednesday,
+    #sunday {
+        flex-direction: row-reverse;
+    }
+
+    #friday,
+    #school {
+        flex-direction: row;
+    }
+
+    #wed-text,
+    #sun-text {
+        flex-shrink: 2;
+        margin-left: 3%;
+    }
+
+    #fri-text,
+    #school-text {
+        flex-shrink: 2;
+        margin-left: 3%;
+    }
+
+    #wed-img,
+    #fri-img,
+    #sun-img,
+    #school-img {
+        margin-left: 5%;
+    }
 }
 
 /* Large devices (laptops and desktops, 1440px and up) */
