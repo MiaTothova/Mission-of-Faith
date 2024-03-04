@@ -155,6 +155,42 @@ main {
 
 
 
+ #wed-img {
+    background: url(../images/holy-bible.webp) no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10%;
+    max-height: 400px;
+    max-width: 400px;
+ }
+
+ #fri-img {
+    background: url(../images/youth-friday.webp) no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10%;
+    max-height: 400px;
+    max-width: 400px;
+ }
+
+ #sun-img {
+    background: url(../images/comunion-table.webp) no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10%;
+    max-height: 400px;
+    max-width: 400px;
+ }
+
+ #school-img {
+    background: url(../images/sunday-school.webp) no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10%;
+    max-height: 400px;
+    max-width: 400px;
+ }
+
 
 /* Contact-Us Page  */
 #contact h2 {
