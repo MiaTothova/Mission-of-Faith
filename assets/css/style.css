@@ -145,6 +145,15 @@ main {
     margin-bottom: 10px
 }
 
+/* Program Section */
+#program {
+    margin: 20px 15px 20px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
 
 /* Contact-Us Page  */
 #contact h2 {
@@ -243,12 +252,12 @@ footer p {
     }
 
     #pastors {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     #pastor-bio {
         flex-shrink: 2;
-        margin-left: 30px;
+        margin-right: 30px;
         margin-top: 30px;
     }
 }
