@@ -236,6 +236,27 @@ main {
 }
 
 
+/*  Youtube Video ( code taken from tutorial https://www.youtube.com/watch?v=nFLERAgAY6M&t=112s ) */
+
+.wrapper {
+    align-items: center;
+    margin:auto;
+    max-width: 800px;
+    padding: 0 7% 7% 7%;
+  }
+  .video-container {
+      position: relative;
+      height: 0;
+      padding-bottom: 56.25%;
+  }
+  .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
 /*  Footer */
 
 footer {
