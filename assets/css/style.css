@@ -28,7 +28,7 @@ h4 {
 
 /*  Header */
 header {
-    background-color: #AB9BA5;
+    background-color: #f0e2b8;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -70,7 +70,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #AB9BA5;
+    background-color: #f0e2b8;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -239,7 +239,7 @@ main {
 /*  Footer */
 
 footer {
-    background-color: #AB9BA5;
+    background-color: #f0e2b8;
 }
 
 footer p {
