@@ -19,11 +19,11 @@ Body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: "PT Serif", serif;
     letter-spacing: 2px;
     color: #000000;
-    font-style: italic;
 }
 
 /*  Header */
@@ -116,6 +116,10 @@ main {
 /* About Section */
 #about {
     margin: 20px 15px 20px 15px;
+}
+
+#about h2 {
+    padding-top: 5%;
 }
 
 #about-us {
@@ -307,10 +311,11 @@ footer p {
         display: none;
     }
 
+
     /* About section */
-    #pastors {
-        flex-direction: row-reverse;
-    }
+    /* #pastors { */
+        /* flex-direction: row-reverse; */
+    /* } */
 
     #pastor-bio {
         flex-shrink: 2;
@@ -345,6 +350,10 @@ footer p {
     #about, #program {
         margin-left: 4%;
         margin-right: 4%;
+    }
+
+    #about h2, #program h2, #program h4{
+        padding-bottom: 3%;
     }
 
     /* Program section */
@@ -388,6 +397,11 @@ footer p {
 
     #menu {
         font-size: 140%;
+    }
+
+    #about, #program {
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
 }
