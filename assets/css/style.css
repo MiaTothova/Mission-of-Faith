@@ -130,8 +130,16 @@ main {
     text-align: center;
 }
 
+#about-us > h2 {
+    text-decoration: underline;
+}
+
 #about-pastors {
     text-align: center;
+}
+
+#about-pastors > h2{
+    text-decoration: underline;
 }
 
 #pastors {
@@ -159,6 +167,14 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+#program > h2 {
+    text-decoration: underline
+}
+
+.txt > h4{
+    font-weight: bold;
 }
 
 #wednesday,
@@ -222,6 +238,15 @@ main {
     margin: auto;
     max-width: 800px;
     padding: 0 7% 7% 7%;
+}
+
+.wrapper > h4, p {
+    padding-bottom: 10x;
+    text-align: center;
+}
+
+.wrapper > h4 {
+    text-decoration: underline;
 }
 
 .video-container {
