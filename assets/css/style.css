@@ -219,22 +219,24 @@ main {
 
 .wrapper {
     align-items: center;
-    margin:auto;
+    margin: auto;
     max-width: 800px;
     padding: 0 7% 7% 7%;
-  }
-  .video-container {
-      position: relative;
-      height: 0;
-      padding-bottom: 56.25%;
-  }
-  .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-  }
+}
+
+.video-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*   Gallery Section */
 
@@ -265,7 +267,7 @@ main {
     margin-left: 10px;
     margin-right: 10px;
     flex-grow: 1;
-} 
+}
 
 #contact-form {
     background-color: rgba(178, 175, 175, 0.6);
@@ -279,7 +281,7 @@ main {
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
-} 
+}
 
 #message {
     width: 100%;
@@ -290,13 +292,20 @@ main {
 }
 
 .submit-button {
-        margin-top: 5px;
-        border-radius: 2px;
-        padding: 10px 32px;
-        font-size: 100%;
-        background-color: #f0e2b8;
+    margin-top: 5px;
+    border-radius: 2px;
+    padding: 10px 32px;
+    font-size: 100%;
+    background-color: #f0e2b8;
 }
 
+#address {
+    padding-top: 10px;
+    text-align: center;
+}
+#address h4 {
+    text-decoration: underline;
+}
 
 /*  Footer */
 
@@ -330,11 +339,11 @@ footer p {
         display: flex;
         justify-content: center;
     }
-    
+
     #contact-form {
         padding: 30px;
     }
-   
+
 }
 
 
@@ -415,12 +424,15 @@ footer p {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #about, #program {
+    #about,
+    #program {
         margin-left: 4%;
         margin-right: 4%;
     }
 
-    #about h2, #program h2, #program h4{
+    #about h2,
+    #program h2,
+    #program h4 {
         padding-bottom: 3%;
     }
 
@@ -456,8 +468,7 @@ footer p {
         margin-left: 5%;
     }
 
-    * Gallery */
-    #photos {
+    * Gallery */ #photos {
         column-count: 4;
     }
 }
@@ -472,7 +483,8 @@ footer p {
         font-size: 140%;
     }
 
-    #about, #program {
+    #about,
+    #program {
         margin-left: 6%;
         margin-right: 6%;
     }
