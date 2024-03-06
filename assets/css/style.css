@@ -214,47 +214,6 @@ main {
 }
 
 
-/* Contact-Us Page  */
-
-#contact {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-grow: 1;
-} 
-
-#contact-form {
-    background-color: rgba(178, 175, 175, 0.6);
-    padding: 30px;
-}
-
-.text-input {
-    width: 100%;
-    height: 25px;
-    margin: 3px 0 10px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-} 
-
-#message {
-    width: 100%;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-}
-
-.submit-button {
-        margin-top: 5px;
-        border-radius: 2px;
-        padding: 10px 32px;
-        font-size: 100%;
-        background-color: #f0e2b8;
-}
-
-
 /*  Youtube Video */
 /* ( code taken from tutorial https://www.youtube.com/watch?v=nFLERAgAY6M&t=112s ) */
 
@@ -298,6 +257,45 @@ main {
 }
 
 
+/* Contact-Us Page  */
+
+#contact {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+} 
+
+#contact-form {
+    background-color: rgba(178, 175, 175, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 3px 0 10px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+} 
+
+#message {
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.submit-button {
+        margin-top: 5px;
+        border-radius: 2px;
+        padding: 10px 32px;
+        font-size: 100%;
+        background-color: #f0e2b8;
+}
 
 
 /*  Footer */
@@ -325,23 +323,18 @@ footer p {
 }
 
 
+/* Media query: larger or landscape phones (425px and up) */
+@media screen and (min-width: 425px) {
 
-/* Media query: tablets and larger (375px and up) */
-/* @media screen and (min-width: 375px) {
-    #contact-form {
-        display: flex; 
-        flex-direction: column;
-        padding: 20px 50px 20px;
-    } 
-
-} */
-
-/* Large devices (laptops and desktops, 320px and up) */
-@media screen and (min-width: 320px) {
-    #logo {
-        font-size: 125%;
+    #contact {
+        display: flex;
+        justify-content: center;
     }
-
+    
+    #contact-form {
+        padding: 30px;
+    }
+   
 }
 
 
@@ -485,20 +478,3 @@ footer p {
     }
 
 }
-
-/* Large devices (laptops and desktops, 2560px and up) */
-/* @media screen and (min-width: 2560px) { */
-/* header h1 {
-        font-size: 600%;
-    } */
-
-/* Footer */
-/* footer {
-        height: 150px;
-    } */
-
-/* #social-media i {
-        font-size: 500%;
-    }
-
-} */
