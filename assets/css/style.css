@@ -360,6 +360,13 @@ footer p {
 /* Media query: larger or landscape phones (425px and up) */
 @media screen and (min-width: 425px) {
 
+    #wed-img,
+    #fri-img,
+    #sun-img,
+    #school-img {
+        margin-left: 13%;
+    }
+
     #contact {
         display: flex;
         justify-content: center;
