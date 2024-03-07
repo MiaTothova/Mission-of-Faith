@@ -130,7 +130,7 @@ main {
     text-align: center;
 }
 
-#about-us > h2 {
+#about-us>h2 {
     text-decoration: underline;
 }
 
@@ -138,7 +138,7 @@ main {
     text-align: center;
 }
 
-#about-pastors > h2{
+#about-pastors>h2 {
     text-decoration: underline;
 }
 
@@ -169,11 +169,11 @@ main {
     justify-content: center;
 }
 
-#program > h2 {
+#program>h2 {
     text-decoration: underline
 }
 
-.txt > h4{
+.txt>h4 {
     font-weight: bold;
 }
 
@@ -240,12 +240,13 @@ main {
     padding: 0 7% 7% 7%;
 }
 
-.wrapper > h4, p {
+.wrapper>h4,
+p {
     padding-bottom: 10px;
     text-align: center;
 }
 
-.wrapper > h4 {
+.wrapper>h4 {
     text-decoration: underline;
 }
 
@@ -269,7 +270,7 @@ main {
     padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    
+
 }
 
 
@@ -293,11 +294,11 @@ main {
 
 #contact-form {
     background-color: rgba(178, 175, 175, 0.9);
-    
+
     padding: 30px;
 }
 
-#contact-form > h2 {
+#contact-form>h2 {
     text-decoration: underline;
 }
 
@@ -324,13 +325,14 @@ main {
     padding: 10px 32px;
     font-size: 100%;
     background-color: #f0e2b8;
-    
+
 }
 
 #address {
     padding-top: 10px;
     text-align: center;
 }
+
 #address h4 {
     text-decoration: underline;
 }
@@ -387,9 +389,7 @@ footer p {
 
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-   
-}
+@media screen and (min-width: 576px) {}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -511,7 +511,7 @@ footer p {
     }
 
     /* Gallery */
-     #photos {
+    #photos {
         column-count: 4;
     }
 }
