@@ -241,7 +241,7 @@ main {
 }
 
 .wrapper > h4, p {
-    padding-bottom: 10x;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -269,12 +269,9 @@ main {
     padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 
-#photos .container {
-    display: flex;
-    justify-content: center;
-}
 
 #photos img {
     width: 100%;
@@ -287,9 +284,9 @@ main {
 /* Contact-Us Page  */
 
 #contact {
-    background-image: url("../images/holy-bible.webp");
+    /* background-image: url("../images/holy-bible.webp");
     background-size: cover;
-    background-position: 75%;
+    background-position: 75%; */
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
@@ -373,6 +370,10 @@ footer p {
         margin-left: 13%;
     }
 
+    #photos {
+        column-count: 2;
+    }
+
     #contact {
         display: flex;
         justify-content: center;
@@ -387,9 +388,7 @@ footer p {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-    }
+   
 }
 
 
@@ -422,7 +421,6 @@ footer p {
     .nav-toggle-label {
         display: none;
     }
-}
 
     /* About section */
 
@@ -450,6 +448,8 @@ footer p {
         background-position: center;
         padding-top: 50px;
     }
+
+}
 
 
 /* Large devices (laptops and desktops, 992px and up) */
