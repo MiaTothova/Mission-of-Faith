@@ -285,9 +285,9 @@ p {
 /* Contact-Us Page  */
 
 #contact {
-    /* background-image: url("../images/holy-bible.webp");
+    background-image: url("../images/holy-bible.webp");
     background-size: cover;
-    background-position: 75%; */
+    background-position: 75%;
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
