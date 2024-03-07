@@ -231,8 +231,6 @@ main {
 
 
 /*  Youtube Video */
-/* ( code taken from tutorial https://www.youtube.com/watch?v=nFLERAgAY6M&t=112s ) */
-
 .wrapper {
     align-items: center;
     margin: auto;
@@ -264,6 +262,7 @@ p {
     height: 100%;
 }
 
+
 /*   Gallery Section */
 
 #gallery {
@@ -272,7 +271,6 @@ p {
     margin-right: 20px;
 
 }
-
 
 #photos img {
     width: 100%;
@@ -365,6 +363,7 @@ footer p {
 /* Media query: larger or landscape phones (425px and up) */
 @media screen and (min-width: 425px) {
 
+    /* Program */
     #wed-img,
     #fri-img,
     #sun-img,
@@ -372,10 +371,12 @@ footer p {
         margin-left: 13%;
     }
 
+    /* Gallery */
     #photos {
         column-count: 2;
     }
 
+    /* Contact Form */
     #contact {
         display: flex;
         justify-content: center;
@@ -387,9 +388,17 @@ footer p {
 
 }
 
-
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+
+    /* Program section */
+    #wed-img,
+    #fri-img,
+    #sun-img,
+    #school-img {
+        margin-left: 30%;
+    } 
+}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -423,20 +432,12 @@ footer p {
     }
 
     /* About section */
-
     #pastor-bio {
         flex-shrink: 2;
         margin-right: 30px;
         margin-top: 30px;
     }
 
-    /* Program section */
-    #wed-img,
-    #fri-img,
-    #sun-img,
-    #school-img {
-        margin-left: 30%;
-    }
 
     /* Gallery */
     #photos {
@@ -444,6 +445,7 @@ footer p {
         padding-top: 30px;
     }
 
+    /* Contact Form */
     #contact {
         background-position: center;
         padding-top: 50px;
@@ -454,6 +456,8 @@ footer p {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    /* Header and navigation */
     #logo {
         font-size: 200%;
     }
@@ -466,6 +470,7 @@ footer p {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* About and Program Section */
     #about,
     #program {
         margin-left: 4%;
@@ -478,7 +483,6 @@ footer p {
         padding-bottom: 3%;
     }
 
-    /* Program section */
     #wednesday,
     #sunday {
         flex-direction: row-reverse;
@@ -518,6 +522,8 @@ footer p {
 
 /* Large devices (laptops and desktops, 1440px and up) */
 @media screen and (min-width: 1440px) {
+
+    /* Header and Nav bar */
     #logo {
         font-size: 240%;
     }
@@ -526,10 +532,10 @@ footer p {
         font-size: 140%;
     }
 
+    /* About and Program */
     #about,
     #program {
         margin-left: 6%;
         margin-right: 6%;
     }
-
 }
