@@ -287,10 +287,10 @@ main {
 /* Contact-Us Page  */
 
 #contact {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    background-image: url("../images/holy-bible.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
 
@@ -322,6 +322,7 @@ main {
     padding: 10px 32px;
     font-size: 100%;
     background-color: #f0e2b8;
+    
 }
 
 #address {
@@ -439,8 +440,13 @@ footer p {
         column-count: 3;
     }
 
-}
+    #contact {
+        background-position: center;
+        padding-top: 50px;
+    }
 
+
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
