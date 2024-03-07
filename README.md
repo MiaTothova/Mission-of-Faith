@@ -20,3 +20,13 @@ Mission of Faith is a website designed to showcase and advertise this Christian 
 * See pictures from past events.
 * To find its contact and location.
 * To establish contact with the pastors or members of the team. 
+
+
+# UX
+I aimed to create a website that is simple to navigate and follow. I aimed for a simplistic design with light colors so that it is easy to read without being too overwhelming on the eyes. 
+
+### The ideal client:
+* English speaking 
+* Located in Ennis Co. Clare and surrounding area
+* Christian or is curious about Christianity 
+* Values involvement in the local community 
