@@ -295,8 +295,13 @@ main {
 }
 
 #contact-form {
-    background-color: rgba(178, 175, 175, 0.6);
+    background-color: rgba(178, 175, 175, 0.9);
+    
     padding: 30px;
+}
+
+#contact-form > h2 {
+    text-decoration: underline;
 }
 
 .text-input {
