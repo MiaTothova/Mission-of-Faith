@@ -80,9 +80,23 @@ On mobile and smaller screens however, a hamburger icon is displayed which expan
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/mob-nav.png)
 
+### About Section
+The About Section consists of two parts: About Us and Meet the Pastors. Each part gives a detailed paragraph with information about each. 
 
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/about.png)
 
-![]()
-![]()
-![]()
-![]()
+### Program Section
+The Program section consists of 4 sub-sections. Each sub-section includes its own image. The sub-sections represent a program on a particular day of the week on which it's run and contains detailed information. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/program.png)
+
+### Sermon of the week and the Footer
+Sermon of the week provides a video and a brief description. The videos are changed on a weekly basis to reflect the church's focus for that week. 
+
+The footer contains all navigation links and copyright information. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/footer.png)
+
+Overall, the main Home page displays all images, text and video in a in 1 long column with each item centered on the page. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/main-smallscreen.png)
