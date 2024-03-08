@@ -30,7 +30,7 @@ I aimed to create a website that is simple to navigate and follow. I aimed for a
 * Located in Ennis Co. Clare and surrounding area
 * Christian or is curious about Christianity 
 * Values involvement in the local community 
-#### The website will help clients to:
+### The website will help clients to:
 * Navigate easily through the website 
 * Find the contact and location 
 * Learn about the church and its pastors 
@@ -67,4 +67,22 @@ The website consists of 3 pages. Home, Gallery, and Contact Us. Here are the wir
 
 * [PC View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/pc.png)
 
-### The Surface
+## The Surface and Features
+
+### Header, Logo, Navbar and Hero Image
+Logo and navigation are displayed the same on all pages of the website. The Hero image, however, is only displayed on the landing page. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/logo-nav-hero.png)
+
+On larger Devices Logo is displayed to the left and the Navigation bar to the right. 
+
+On mobile and smaller screens however, a hamburger icon is displayed which expands when clicked. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/mob-nav.png)
+
+
+
+![]()
+![]()
+![]()
+![]()
