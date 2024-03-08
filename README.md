@@ -67,6 +67,12 @@ The website consists of 3 pages. Home, Gallery, and Contact Us. Here are the wir
 
 * [PC View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/pc.png)
 
+Here I have been planning my color schemes for the website.
+At the End I have decided to stick to the Yellow/off white shades. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/color-scheme.png)
+
+
 ## The Surface and Features
 
 ### Header, Logo, Navbar and Hero Image
@@ -100,3 +106,25 @@ The footer contains all navigation links and copyright information.
 Overall, the main Home page displays all images, text and video in a in 1 long column with each item centered on the page. 
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/main-smallscreen.png)
+
+### The Gallery 
+The Gallery page is Responsive, displaying 1 column on bile devices gradually increasing column number based on the size of the screen.  
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/gallery-big.png)
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/gallery-small.png)
+
+### Contact Us
+The contact form is centered throughout the different screen sizes. It features an image background and address and contact number which I have placed in the same container. 
+
+The form allows the User to interact with the page to submit their name, number and a brief message explaining their query. The information provided by the user is sent to https://formdump.codeinstitute.net/ for now, but that will be changed in the future. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/contact.png)
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+
