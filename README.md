@@ -138,6 +138,18 @@ The form allows the User to interact with the page to submit their name, number 
 5. As a new visitor, I want to see the best way to contact the church. 
  * The Contact Us page provides a form which the user can fill out, proving their name, phone number and brief message. The user, however, can also use the phone number and address provided. 
 
+### Aditional Testing
+
+When running the Lighthouse validation in Devtools for the first time,  I have received this score  :
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/lighthouse.png)
+
+But after noticing that W3C Markup Validation Service was giving a warning in my gallery.html page about a <h2> tag not being present in my <section id="gallery"> 
+
+So, to fix the W3C validation I have included a <h2> tag in the gallery section to fix this warning, as I didn't want that to affect my grade.  
+ 
+After this I ran the Lighthouse validation in Devtools again. But after doing that it has dropped my Performance has dropped from 83 to 66. So, I am not too pleased about that.
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/lighthouse-2.png)
+
 ### Bugs
 When testing the site using Devtools I have noticed a white space appears underneath the header when the page loads and then disappears. I have concluded that this must be due to some margin css clashing together. I used Bootstrap when first styling the form as I was trying to figure out the best approach. But have reverted to only css. I did however continue to style my pages without removing the Bootstrap link from my head section. I believe this is what is causing the issue. I will be focusing on fixing this in the future. 
 
@@ -146,8 +158,6 @@ When testing the site using Devtools I have noticed a white space appears undern
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/css-validation.png)
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/html-validation.png)
-
-![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/lighthouse.png)
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/color-validation)
 
