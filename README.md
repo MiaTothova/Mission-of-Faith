@@ -56,3 +56,13 @@ To achieve my goal, I included the following features my website:
 * Gallery page, where the user can see a collage of images of its members, taken from past events. 
 * Contact Us, which takes the user to a form that can be filled out if he/she wishes to make contact. But also provides the address and phone number which allows the user to initiate the first contact.  
 * Footer, which contains links to the church's social media accounts, where the user can learn more or use that as a means of contact also. 
+
+
+### The Skeleton
+The website consists of 3 pages. Home, Gallery, and Contact Us. Here are the wireframes that were used in the construction of the site.  
+
+* [Mobile View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/mobile.png)
+
+* [Tablet View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/tablet.png)
+
+* [PC View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/pc.png)
