@@ -56,6 +56,7 @@ To achieve my goal, I included the following features my website:
 * Gallery page, where the user can see a collage of images of its members, taken from past events. 
 * Contact Us, which takes the user to a form that can be filled out if he/she wishes to make contact. But also provides the address and phone number which allows the user to initiate the first contact.  
 * Footer, which contains links to the church's social media accounts, where the user can learn more or use that as a means of contact also. 
+* The use of media queries allows for responsiveness on different screen sizes. 
 
 
 ### The Skeleton
@@ -68,7 +69,7 @@ The website consists of 3 pages. Home, Gallery, and Contact Us. Here are the wir
 * [PC View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/pc.png)
 
 Here I have been planning my color schemes for the website.
-At the End I have decided to stick to the Yellow/off white shades. 
+At the End I have decided to stick to the Yellow/off-white/greyish shades. 
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/color-scheme.png)
 
@@ -120,6 +121,10 @@ The contact form is centered throughout the different screen sizes. It features 
 The form allows the User to interact with the page to submit their name, number and a brief message explaining their query. The information provided by the user is sent to https://formdump.codeinstitute.net/ for now, but that will be changed in the future. 
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/contact.png)
+
+## Testing
+
+### Validators
 
 ![]()
 ![]()
