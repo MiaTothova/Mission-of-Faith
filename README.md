@@ -66,3 +66,5 @@ The website consists of 3 pages. Home, Gallery, and Contact Us. Here are the wir
 * [Tablet View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/tablet.png)
 
 * [PC View](https://github.com/MiaTothova/Mission-of-Faith/blob/main/wire-frames/pc.png)
+
+### The Surface
