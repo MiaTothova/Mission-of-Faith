@@ -194,5 +194,25 @@ Any media and videos have been sourced by :
 ## Deployment
 This project was developed using Gitpod, committed to git and pushed to GitHub using git commands. You can clone this repository using [https://miatothova.github.io/Mission-of-Faith/index.html](https://miatothova.github.io/Mission-of-Faith/index.html)
 
-1.  select the Settings tab in my GitHub repository. 
+1.Select the Settings tab in my GitHub repository. 
+
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/1D.jpg)
+ 
+2. Find GitHub Pages in the menu.
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/2D.jpg) 
+
+3. Go to Source > select Deploy from a branch. Then Choose the Main branch, Then select root folder and save. After this wait few minutes and refresh the page.
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/3D.jpg)
+
+4. After the page re-freshed, I got a message "Your site is live at https://miatothova.github.io/Mission-of-Faith/index.html".
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/4D.png)
+
+6. Clicking on the link takes us to the deployed website.
+![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/5D.png)
+
+## Acknowledgement
+I have decided to make this website for my local church. All they have is a fakebook page and I have asked for permission to use them as an idea for a webpage. They gave me permission to include their images and were very excited about the whole idea. 
+
+I want to thank my mentor and my course coordinator for pushing me in the right direction, as well as providing inspiration. And thanks to Student support, in helping fix small bits of code to help pass it through the Validators. 
+
 
