@@ -6,7 +6,6 @@
 The image is from [Am I responsive?](https://ui.dev/amiresponsive)
 
 
-
 Mission of Faith is a website designed to showcase and advertise this Christian Evangelical church located in Ennis Co. Clare. Its main goal is to provide useful information about the church and what programs it runs on a weekly basis. Its main objective is to showcase its importance and place in the local community. The Gallery page is full of images from past sermons and events, showcasing its attention to detail and especially its involvement in children's development and focusing on their youth members.   
 
 #### The Business goals of the website are:
@@ -109,7 +108,7 @@ Overall, the main Home page displays all images, text and video in a in 1 long c
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/main-smallscreen.png)
 
 ### The Gallery 
-The Gallery page is Responsive, displaying 1 column on bile devices gradually increasing column number based on the size of the screen.  
+The Gallery page is Responsive, displaying 1 column on mobile devices gradually increasing column number based on the size of the screen.  
 
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/gallery-big.png)
 
