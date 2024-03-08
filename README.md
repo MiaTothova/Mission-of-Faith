@@ -44,3 +44,15 @@ I aimed to create a website that is simple to navigate and follow. I aimed for a
 3. As a new visitor, I want to know what the usual program schedule is. 
 4. As a new visitor, I want to connect to any social media pages the church has. 
 5. As a new visitor, I want to see the best way to contact the church. 
+
+
+### The Scope
+To achieve my goal, I included the following features my website:
+* Header containing the logo and the menu bar including Home, Gallery and Contact Us links. 
+* Home page split into 3 sections : 
+    1. About - Provides information about the Church and its pastors.
+    2. Program - Providing detailed information on the specific event, what its main focus is and the day it is run on.
+    3. Video - User has the option to watch a video which is changed on a weekly basis.
+* Gallery page, where the user can see a collage of images of its members, taken from past events. 
+* Contact Us, which takes the user to a form that can be filled out if he/she wishes to make contact. But also provides the address and phone number which allows the user to initiate the first contact.  
+* Footer, which contains links to the church's social media accounts, where the user can learn more or use that as a means of contact also. 
