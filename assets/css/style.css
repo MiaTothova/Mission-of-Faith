@@ -274,8 +274,7 @@ p {
 
 #gallery h2 {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-decoration: underline;
 }
 
@@ -447,6 +446,11 @@ footer p {
 
 
     /* Gallery */
+
+    #gallery h2 {
+        padding-top: 15px;
+    }
+
     #photos {
         column-count: 3;
         padding-top: 30px;
@@ -549,4 +553,10 @@ footer p {
         margin-left: 6%;
         margin-right: 6%;
     }
+
+    /* Gallery */
+    #gallery h2 {
+        padding-top: 30px;
+    }
+
 }
