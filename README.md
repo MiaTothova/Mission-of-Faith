@@ -141,13 +141,15 @@ The form allows the User to interact with the page to submit their name, number 
 ### Aditional Testing
 
 When running the Lighthouse validation in Devtools for the first time,  I have received this score  :
+
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/lighthouse.png)
 
-But after noticing that W3C Markup Validation Service was giving a warning in my gallery.html page about a <h2> tag not being present in my <section id="gallery"> 
+But after noticing that W3C Markup Validation Service was giving a warning in my gallery.html page about a h2 tag not being present in my section id="gallery" 
 
-So, to fix the W3C validation I have included a <h2> tag in the gallery section to fix this warning, as I didn't want that to affect my grade.  
+So, to fix the W3C validation I have included a h2 tag in the gallery section to fix this warning, as I didn't want that to affect my grade.  
  
 After this I ran the Lighthouse validation in Devtools again. But after doing that it has dropped my Performance has dropped from 83 to 66. So, I am not too pleased about that.
+
 ![](https://github.com/MiaTothova/Mission-of-Faith/blob/main/readme-images/lighthouse-2.png)
 
 ### Bugs
