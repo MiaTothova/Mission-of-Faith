@@ -30,3 +30,17 @@ I aimed to create a website that is simple to navigate and follow. I aimed for a
 * Located in Ennis Co. Clare and surrounding area
 * Christian or is curious about Christianity 
 * Values involvement in the local community 
+#### The website will help clients to:
+* Navigate easily through the website 
+* Find the contact and location 
+* Learn about the church and its pastors 
+* Find the specific days of programs that are run each week
+* Use the form provided to request a call back or ask aquestion
+* See Images of its church community from past events 
+
+### User Stories
+1. As a new visitor, I want to know what the website is about. 
+2. As a new visitor, I want to learn about the aim of the website, what it is about and who runs the congregation.  
+3. As a new visitor, I want to know what the usual program schedule is. 
+4. As a new visitor, I want to connect to any social media pages the church has. 
+5. As a new visitor, I want to see the best way to contact the church. 
