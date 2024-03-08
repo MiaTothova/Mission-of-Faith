@@ -133,3 +133,15 @@ The form allows the User to interact with the page to submit their name, number 
 ![]()
 ![]()
 
+## Technologies Used
+[Balsamiq](https://balsamiq.com/) I used the low-fidelity wireframing tool to create structure of the website layout.
+* [Gitpod](https://gitpod.io/workspaces)I used this developer to write the code for this website.
+* [Github](https://github.com/) Was used to host my code that was created and pushed to Gitpod.
+* [Google Fonts](https://fonts.google.com/) Was used to style the website's fonts.
+* [Bootstrap](https://getbootstrap.com/) Was originaly used to create the form, but i have reverted to using vanila css.
+* [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) The use of few icons from this website were used to make the website more appealing.
+* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) Was use to check the markup of the web documents in HTLM.
+* [W3C jigsaw Validation Service](https://jigsaw.w3.org/css-validator/validator) Was used to chech and validate the CSS in my project.
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)Was used to inspect any issues and inspect the responsiveness of the website.
+* [a11y Contrast Checker](https://color.a11y.com/) This was used to make sure that the project meets visual standards.
+
